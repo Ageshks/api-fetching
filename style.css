@@ -11,6 +11,8 @@ body {
     font-family: 'Poetsen One', sans-serif;
     background-image: url(1318485.png);
     background-size: cover;
+    //flextbox: wrap;
+    
 }
 .container {
     background: transparent;
