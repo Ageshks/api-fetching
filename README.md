@@ -23,7 +23,7 @@ CSS: Styling and layout
 
 JavaScript: Handling currency conversion logic and updating exchange rates dynamically
 
-How to Run the Project
+# How to Run the Project
 
 Clone or download the repository.
 
@@ -33,7 +33,7 @@ Ensure that style.css and index.js are in the same directory.
 
 The converter will be ready to use.
 
-File Structure
+### File Structure
 
 /currency-converter
 │── index.html        # Main HTML file
@@ -48,7 +48,7 @@ Add more currency options
 
 Improve UI/UX with better animations
 
-License
+# License
 
-This project is open-source and free to use for educational and personal purposes.
+# This project is open-source and free to use for educational and personal purposes.
 
