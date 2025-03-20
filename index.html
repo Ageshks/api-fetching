@@ -3,30 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>currency values</title>
+    <title>Currency Converter</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <h2 class="heading">Currency Converter</h2>
         <div class="rate">
-            <div class="rate1"></div>
-            <div class="rate2"></div>
+            <div class="rate1">1 USD = </div>
+            <div class="rate2">0.85 EUR</div>
         </div>
         <div class="main">
             <div class="initial">
-                <div class="options"><select></select></div>
-                <div class="input"><input type="number"></div>
+                <div class="options">
+                    <select id="fromCurrency"></select>
+                </div>
+                <div class="input">
+                    <input id="fromAmount" type="number" value="1">
+                </div>
             </div>
-            <span class="material-icon swap" style="font-size: 36px;">change</span>
+            <span class="material-icons swap" id="swapButton">swap_vert</span>
             <div class="target">
-                <div class="options"><select></select></div>
-                <div class="input"><input disabled type="number"></div>
+                <div class="options">
+                    <select id="toCurrency"></select>
+                </div>
+                <div class="input">
+                    <input id="toAmount" type="number" disabled>
+                </div>
             </div>
         </div>
-        <button class="result">Result</button>
+        <button class="result" id="convertButton">Convert</button>
     </div>
-    <script src="index.js"></script> 
-
+    <script src="index.js"></script>
 </body>
 </html>

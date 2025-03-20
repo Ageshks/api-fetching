@@ -104,7 +104,7 @@ async function fetchRate() {
     let data = await res.json();
     rates = data.rates;
     populateOptions();
-    displayRate();  // Display initial conversion rate after fetching rates
+    displayRate();  
 }
 
 function populateOptions() {
