@@ -35,7 +35,7 @@ The converter will be ready to use.
 
 ### File Structure
 
-/currency-converter
+##### /currency-converter
 │── index.html        # Main HTML file
 │── style.css         # Stylesheet
 │── index.js          # JavaScript logic for currency conversion
