@@ -37,3 +37,16 @@ This is a simple web-based **Currency Converter** that allows users to select tw
  ##  API Used
 
 The project uses the ExchangeRate-API to fetch real-time exchange rates. The API is free and does not require an API key for basic usage.
+
+
+### Future Improvements
+
+    Real-Time API Integration: Use a more robust API for up-to-date exchange rates.
+
+    More Currency Options: Add support for additional currencies.
+
+    Historical Data: Allow users to view historical exchange rates.
+
+    Improved UI/UX: Add animations, a dark mode, and a more interactive design.
+
+    Offline Support: Cache exchange rates for offline use.
